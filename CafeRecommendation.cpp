@@ -93,7 +93,7 @@ int main()
 
     // ------------------ SIMPLE AI SUGGESTION ------------------
 
-    cout << "\nAI Recommendations within your budget:\n";
+    cout << "\n AI Recommendations within your budget:\n";
 
     bool found = false;
 
@@ -128,6 +128,7 @@ int main()
             cout << "Maximum 50 items allowed.\n";
             break;
         }
+        // set a max limit
 
         int id;
         cout << "Enter Item ID: ";
